@@ -1,0 +1,39 @@
+.go-board{
+  font-size: 20px;
+  background-image: url('https://kevinljw.github.io/pic-pool/board-9-word2.gif');
+  width: 20em;
+  height: 20em;
+  background-size: cover;
+}
+.row{
+  margin-left:.75em;
+}
+.row:first-child .col{
+  margin-top:.75em;
+}
+
+#go{
+    width:1.5em;
+    height:1.5em;
+    display:inline-block;
+    margin: .14em .12em;
+    border-radius: 50%;
+}
+
+
+.col{
+  width:1.5em;
+  height:1.5em;  
+  display:inline-block;
+  margin: .14em .12em;  
+  border-radius: 50%;
+/*  visibility: hidden;*/
+} 
+.white{
+  border: 1px solid #000;
+  background: #fff;
+}
+.black{
+  border: 1px solid #000;  
+  background: #000;
+}

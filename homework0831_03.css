@@ -1,0 +1,9 @@
+.col{
+  visibility: visible;
+  border: 1px solid transparent;
+}
+
+.hint{
+    font-family: sans-serif;
+    
+}

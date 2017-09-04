@@ -1,5 +1,10 @@
+function random(m){
+    var num;
+    num = Math.floor(Math.random()*m+1);
+    return num;
+}
+
 function max(a,b){
-//  console.log(a>b);
     if(a>b){
         return a;
     }
@@ -8,9 +13,11 @@ function max(a,b){
     }
 }
 
-function random(m){
-    
+function lastChar(str){
+    var index = str[str.length - 1];
+    return index;
 }
+
 
 function squares(a,b){
     return Math.pow(a,2) + Math.pow(b,2);
