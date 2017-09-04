@@ -6,6 +6,31 @@ p {
     color: #111;
 	}
 
-h1{
-    border-radius: 5px;
+h1, h2#header{
+    border-radius: 2px;
+}
+
+#header h1{
+    font-family: serif;
+    font-style: italic;
+    font-size: 4em;
+    transition: 1s text-shadow;
+}
+
+#header h1:hover{
+    text-shadow:
+        1px 1px 0px #888,
+        1px 2px 0px #999,
+        1px 3px 0px #aaa,
+        1px 4px 0px #bbb,
+        1px 5px 0px #ccc,
+        1px 6px 0px #ddd,
+        1px 7px 0px #eee,
+        1px 8px 0px #555;  
+}
+
+#header h2{
+    font-family: serif;
+    font-style: italic;
+    font-size: 2em;
 }

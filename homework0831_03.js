@@ -27,6 +27,7 @@ $().ready(function(){
     $(".col").css("opacity","0" );
     $("#go").css("opacity","0" );  
     color = "white";
+    goColor="black";
     $(".hint").text("It's "+color+" turn!");
     $(".col").removeClass("white");
     $(".col").removeClass("black");
